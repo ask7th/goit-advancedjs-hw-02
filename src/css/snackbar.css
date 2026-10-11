@@ -52,7 +52,7 @@
   box-sizing: border-box;
 }
 
-.back-link {
+.container:has(.form) .back-link {
   margin: 20px;
   display: table;
   border-radius: 0px;

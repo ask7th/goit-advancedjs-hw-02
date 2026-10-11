@@ -10,7 +10,7 @@
   min-width: 60px;
   margin-top: 20px;
   margin-left: 5px;
-  margin-right: 5px; 
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -29,4 +29,9 @@ input {
 button:disabled,
 input:disabled {
   background-color: lightgray;
+}
+
+.container:has(.timer) .back-link {
+  border-radius: 8px;
+  display: inline-table;
 }
